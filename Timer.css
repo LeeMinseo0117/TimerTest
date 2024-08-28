@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+  background: radial-gradient(
+    96.74% 276.79% at 3.59% 5.28%,
+    #f0f4ff 0%,
+    #a5b6ee 100%
+  );
+  background-repeat: no-repeat;
+}
+article {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#weniv {
+  width: 244px;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container:nth-child(1)::after {
+  background-image: url(./img/dot.svg);
+}
