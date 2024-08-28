@@ -21,6 +21,3 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-.container:nth-child(1)::after {
-  background-image: url(./img/dot.svg);
-}
